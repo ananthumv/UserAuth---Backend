@@ -1,0 +1,9 @@
+# Ignore the backend folder completely
+/backend/
+
+# Ignore build output
+/backend/bin/
+/backend/obj/
+/backend/*.user
+/backend/*.suo
+/backend/*.vscode/
