@@ -8,28 +8,24 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ----------------- CORS -----------------
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+// ---------------- CORS ----------------
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: MyAllowSpecificOrigins,
+    options.AddPolicy("AllowReact",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173") 
+            policy.WithOrigins("http://localhost:5173")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
 });
 
-// ----------------- Database -----------------
+// ---------------- DB (SQL SERVER) ----------------
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
-    )
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
-// ----------------- JWT -----------------
+// ---------------- JWT ----------------
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -38,29 +34,28 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuer = false,
             ValidateAudience = false,
             ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)
             )
         };
     });
 
+builder.Services.AddAuthorization();
 builder.Services.AddScoped<IJwtService, JwtService>();
 
-// ----------------- Controllers & Swagger -----------------
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// ----------------- Middleware -----------------
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors(MyAllowSpecificOrigins); // ✅ Must come BEFORE auth
+app.UseCors("AllowReact");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

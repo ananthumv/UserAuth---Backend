@@ -7,3 +7,6 @@
 /backend/*.user
 /backend/*.suo
 /backend/*.vscode/
+.vs/
+bin/
+obj/

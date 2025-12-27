@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\migrations\\20251224132841_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,32 +66,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-24T14:02:52.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20251224132841_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Migrations\\20251224132841_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251224132841_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Migrations\\20251224132841_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20251224132841_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T13:28:43.62Z",
               "EditorCaption": ""
             },
             {
@@ -108,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -116,12 +103,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:45:27.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T12:45:27.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend.csproj",
@@ -129,8 +115,7 @@
               "RelativeToolTip": "Backend.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-24T12:45:57.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T12:45:57.274Z"
             },
             {
               "$type": "Document",
@@ -158,29 +143,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T13:00:10.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-24T12:59:33.079Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251224132841_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Migrations\\20251224132841_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251224132841_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Migrations\\20251224132841_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251224132841_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:28:43.62Z"
             },
             {
               "$type": "Document",

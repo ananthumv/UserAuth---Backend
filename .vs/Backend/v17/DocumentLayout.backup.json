@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D3B9202-2A26-49E5-B00B-D8FEB01B96BF}|Backend.csproj|c:\\users\\anant\\onedrive\\desktop\\ortez\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T14:02:52.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "20251224132841_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Migrations\\20251224132841_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20251224132841_InitialCreate.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Services\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IJwtService.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Backend.csproj",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend.csproj",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\DTOs\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginRequestDto.cs",
@@ -129,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
@@ -147,14 +164,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T13:00:10.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\DTOs\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Helpers\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Helpers\\PasswordHasher.cs",
@@ -191,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterRequestDto.cs.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\DTOs\\RegisterRequestDto.cs.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterRequestDto.cs.cs",
@@ -203,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\anant\\OneDrive\\Desktop\\Ortez\\Backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
